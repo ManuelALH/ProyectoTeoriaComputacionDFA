@@ -1,6 +1,0 @@
-automata-lib
-pandas
-colormath
-graphviz
-jupyterlab
-

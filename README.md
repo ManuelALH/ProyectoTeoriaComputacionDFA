@@ -119,14 +119,14 @@ q2   q2  *q1
 new_dfa.show_diagram()
 ```
 
-![alt text](https://github.com/ManuelALH/ProyectoTeoriaComputacionDFA/images/new_dfa.png?raw=true "new_dfa")
+![alt text](https://github.com/ManuelALH/ProyectoTeoriaComputacionDFA/blob/main/images/new_dfa.png?raw=true "new_dfa")
 
 ```python
 minimal_dfa = VisualDFA.minify(new_dfa)
 minimal_dfa.show_diagram()
 ```
 
-![alt text](https://github.com/ManuelALH/ProyectoTeoriaComputacionDFA/images/minimal_dfa.png?raw=true "minimal_dfa")
+![alt text](https://github.com/ManuelALH/ProyectoTeoriaComputacionDFA/blob/main/images/minimal_dfa.png?raw=true "minimal_dfa")
 
 ```python
 minimal_dfa.table
@@ -194,7 +194,7 @@ Step: Current state: Input symbol: New state:
 dfa.show_diagram()
 ```
 
-![alt text](https://github.com/ManuelALH/ProyectoTeoriaComputacionDFA/images/dfa.png?raw=true "dfa")
+![alt text](https://github.com/ManuelALH/ProyectoTeoriaComputacionDFA/blob/main/images/dfa.png?raw=true "dfa")
 
 El metodo `show_diagram` tambien acepta cadenas de entrada, y retornara un grafico con flechas `Rojas` para resultados `Rechazados` y flechas color `Verde` para resultados `Aceptados`. Tambien mostrara una tabla con el orden de los estados. Los estados en esta tabla corresponderan con el  `[numero]` sobre cada flecha.
 
@@ -212,7 +212,7 @@ Step: Current state: Input symbol: New state:
 4                *q4             1         q1
 ```
 
-![alt text](https://github.com/ManuelALH/ProyectoTeoriaComputacionDFA/images/dfa_1001.png?raw=true "dfa_1001")
+![alt text](https://github.com/ManuelALH/ProyectoTeoriaComputacionDFA/blob/main/images/dfa_1001.png?raw=true "dfa_1001")
 
 ```python
 dfa.show_diagram("10011")
@@ -228,7 +228,7 @@ Step: Current state: Input symbol: New state:
 5                 q1             1        *q2
 ```
 
-![alt text](https://github.com/ManuelALH/ProyectoTeoriaComputacionDFA/images/dfa_10011.png?raw=true "dfa_10011")
+![alt text](https://github.com/ManuelALH/ProyectoTeoriaComputacionDFA/blob/main/images/dfa_10011.png?raw=true "dfa_10011")
 
 ## Autor
 

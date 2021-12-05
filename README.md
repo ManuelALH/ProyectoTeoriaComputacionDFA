@@ -188,7 +188,7 @@ Step: Current state: Input symbol: New state:
 5                 q1             1        *q2
 ```
 
-#### Mostrar Diagrama
+#### Mostrar Diagramas
 
 ```python
 dfa.show_diagram()
